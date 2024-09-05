@@ -1,0 +1,22 @@
+[package]
+name = "scanguard"
+version = "0.1.0"
+edition = "2023_11"
+cairo-version = "2.6.3"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
+
+[dependencies]
+starknet = "2.6.3"
+openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", tag = "v0.13.0" }
+
+[dev-dependencies]
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.25.0" }
+
+[scripts]
+test = "snforge test"
+declare = "sncast --profile test_deploy_24 declare --contract-name OwnerContract"
+
+[[target.starknet-contract]]
+casm = true
+sierra = true
