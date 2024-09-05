@@ -8,11 +8,10 @@
 
 ## Team Information
 
-- **Kevin**: Project Manager
 - **Emmanuel Ejembi**: Smart Contract Developer
 - **Flora Osutayi**: UI/UX Designer
 - **Catherine Jonathan**: Frontend Developer
-- **Naomi Emmanuel**: Documentarian
+- **Naomi Emmanuel**: Technical Writer
 
 ### Slides
 
